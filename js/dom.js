@@ -70,12 +70,12 @@ const getProperOrientedObject = (o) => {
 const populate = (data) => {
   contentPanel.innerHTML = "";
   if (data.length === 0) {
-    contentPanel.innerHTML = `<h1>No ${activeLink} Data Found</h1>`;
+    contentPanel.innerHTML = `<h1>No Data For ${activeLink}</h1>`;
 
     let createBtn = document.createElement('button');
     createBtn.innerText = `Create ${activeLink} Record`;
     createBtn.classList.add('btn');
-    createBtn.classList.add('btn-warning');
+    createBtn.classList.add('btn-info');
     createBtn.setAttribute('onclick',`handleCreate("${activeLink}")`);
     createBtn.setAttribute('data-bs-toggle','modal');
     createBtn.setAttribute('data-bs-target','#createModal');

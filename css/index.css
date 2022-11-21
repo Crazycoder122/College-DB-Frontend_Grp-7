@@ -1,3 +1,4 @@
+
 .form-field-div{
     margin-bottom : 5px;
   }
@@ -12,9 +13,17 @@
 
 
   input:focus:invalid{
-    border:3px solid red
+    border:3px solid pink
   }
 
   .form-ip-div{
     margin-bottom: 2%;
   }
+
+  a{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+button{
+  font-family: 'Roboto Condensed', sans-serif;
+}
