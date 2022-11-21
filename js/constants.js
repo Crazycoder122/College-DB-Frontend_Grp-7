@@ -74,7 +74,7 @@ const teacherForm = [
         "type" : "text",
         "pattern" : null,
         "required" : true,
-        "placeholder" : "Teacher's Name",
+        "placeholder" : "Professor's Name",
         "API Type" : "text"
     },
     {
@@ -82,7 +82,7 @@ const teacherForm = [
         "type" : "email",
         "pattern" : null,
         "required" : true,
-        "placeholder" : "Teacher's Email",
+        "placeholder" : "Professor's Email",
         "API Type" : "text"
     },
     {
@@ -90,7 +90,7 @@ const teacherForm = [
         "type" : "text",
         "pattern" : "\\d{2}",
         "required" : true,
-        "placeholder" : "Teacher's Age",
+        "placeholder" : "Professor's Age",
         "API Type" : "number"
     },
 

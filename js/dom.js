@@ -166,7 +166,7 @@ const buildForm = (data) => {
   const formConfig =
     activeLink === "student"
       ? studentForm
-      : activeLink === "teacher"
+      : activeLink === "professor"
       ? teacherForm
       : employeeForm;
 

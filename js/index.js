@@ -99,7 +99,7 @@ const getCorrectInputValue = (inputElem,formConfig) => {
       navLink[i].addEventListener("click", async () => {
 
         // Array of Types of Entities
-        let typeArray = ["student", "teacher", "employee"];
+        let typeArray = ["student", "professor", "employee"];
 
         // Removing the "active" class from all the Navlinks
         for (let ii = 0; ii < navLink.length; ii++)
@@ -131,7 +131,7 @@ const getCorrectInputValue = (inputElem,formConfig) => {
         const formConfig =
         activeLink === "student"
           ? studentForm
-          : activeLink === "teacher"
+          : activeLink === "professor"
           ? teacherForm
           : employeeForm;
         
@@ -174,7 +174,7 @@ const getCorrectInputValue = (inputElem,formConfig) => {
       const formConfig =
       activeLink === "student"
         ? studentForm
-        : activeLink === "teacher"
+        : activeLink === "professor"
         ? teacherForm
         : employeeForm;
       
