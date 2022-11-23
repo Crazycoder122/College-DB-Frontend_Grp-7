@@ -168,7 +168,7 @@ const employeeForm = [
 
 const URL = {
     student: "https://college-database-backend.herokuapp.com/student",
-    teacher: "https://college-database-backend.herokuapp.com/teacher",
+    professor: "https://college-database-backend.herokuapp.com/teacher",
     employee: "https://college-database-backend.herokuapp.com/nonTeacher",
 };
   
